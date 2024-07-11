@@ -169,7 +169,7 @@ export const AuthProvider = (props) => {
     const user = {
       id: '5e86809283e28b96d2d38537',
       avatar: '/assets/avatars/default-avatar.png',
-      name: 'Oktopus',
+      name: 'ZNID',
       email: email,
       token: token
     };

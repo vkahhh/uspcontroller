@@ -70,7 +70,7 @@ export const Layout = (props) => {
           }}
         >
           <Box sx={{ p: 3 }}>
-          <Link href="https://oktopus.app.br" target="_blank">
+          <Link href="https://dasans.com/en/" target="_blank">
             <img
               alt=""
               src="/assets/oktopus.png"

@@ -34,7 +34,7 @@ services:
 
 #/* ---------------------------- Databases / Cache --------------------------- */
   mongo_usp:
-    image: mongo
+    image: mongo:4.4.6
     container_name: mongo_usp
     ports:
       - 27017:27017
@@ -190,7 +190,7 @@ services:
     image: nginx:latest
     container_name: nginx
     ports:
-      - 80:80
+      - 8088:80
     depends_on:
       - frontend
       - controller
